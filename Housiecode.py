@@ -8,8 +8,8 @@ def question(list):
     housie(s,length,list)
 def housie(str,leng,list):    
     if(str.upper()=='Y'):
-        n = random.randint(1,10)
-        if leng == 10:
+        n = random.randint(1,90)
+        if leng == 90:
             print("Game over!!")
             return
         elif n in list:
